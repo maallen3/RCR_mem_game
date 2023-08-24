@@ -2,7 +2,7 @@
 body {
   display: block;
   margin: 8px;
-}
+  background-color: lightblue;}
 
 body:focus {
   outline: none;

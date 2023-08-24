@@ -1,4 +1,12 @@
 /* (A) CONTAINER */
+body {
+  display: block;
+  margin: 8px;
+}
+
+body:focus {
+  outline: none;
+}
 #mem-game {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;

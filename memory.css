@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-.mem-game {
+#mem-game {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 10px;

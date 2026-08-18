@@ -85,7 +85,11 @@ var mem = {
     this.classList.add("open");
     
     // (D2) NO PREVIOUS GUESS - JUST RECORD AS OPENED
-    if (mem.last == null) { mem.last = idx;var d1 = new Date();mem.time1 = d1.getTime();}
+    if (mem.last == null) {
+       mem.last = idx;
+       if (mem.moves === 1) {
+         var d1 = new Date();
+         mem.time1 = d1.getTime();}}
     
     else {
       // (D3) MATCHED AGAINST PREVIOUS GUESS
